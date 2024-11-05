@@ -1,0 +1,9 @@
+server:
+  port: 4042
+spring:
+  application:
+    name: elastic-search-crud
+  elasticsearch:
+    password: ''
+    uris: http://localhost:9200
+    username: elastic
