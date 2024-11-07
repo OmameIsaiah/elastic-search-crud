@@ -9,6 +9,23 @@ spring:
     username: elastic
 
 
+spring:
+  elasticsearch:
+    rest:
+      username: elastic
+      uris: http://127.0.0.1:9200
+      password: <elasticPW>
+    uris: http://127.0.0.1:9200
+    username: elastic
+    password: <elasticPW>
+elasticsearch:
+  username: elastic
+  keystore:
+    path: /opt/services/ssl/key.pfx
+    password: <keyPassword>
+  host: http://127.0.0.1:9200
+  password: <elasticPW>
+
 #After running the script, you can access Elastic services at the following endpoints:
 #Elasticsearch: http://localhost:9200
 #Kibana: http://localhost:5601
